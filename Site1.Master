@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="obama_site.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+     
+    <style>
+        a{
+            color:white;
+            font-family:Arial;
+            font-size:20px;
+            text-decoration:none;
+            font-weight:bold
+               
+        }
+        a:hover{
+            transform:scale(1.25)
+
+        }
+        body{
+            background-image:url(https://i.pinimg.com/originals/2b/32/23/2b3223572ebde69c5fff3a561cd54dcd.jpg)
+        }
+
+        h2{
+            font-family:Arial;
+            font-size:25px;
+            color:white
+        }
+
+    </style>
+    
+</head>
+<body dir="rtl">
+        <center>
+
+    
+        <div>
+              <table>
+  <tr>
+      <td style="border-style:double; width:90px;height:1px;"><a href="index.aspx">עמוד ראשי</a></td>
+      <td style="border-style:double; width:90px;height:1px;"><a href="obama%20foundation.aspx">קרן אובמה</a></td>
+      <td style="border-style:double; width:140px;height:1px;"><a href="The%20Obama%20Foundation%20Scholars.aspx">קרן חוקרי אובמה</a></td>
+      <td style="border-style:double; width:170px;height:1px;"><a href="My%20Brother's%20Keeper%20Alliance.aspx">ברית השומר של אחי</a></td>
+      <td style="border-style:double; width:60px;height:1px;"><a href="gallery.aspx">גלרייה</a></td>
+       <td style="border-style:double; width:100px;height:1px;"><a href="registration.aspx">דף הרשמה</a></td>
+
+  </tr>
+  </table>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <br /> 
+        <br />
+        <br />
+        
+      
+
+   
+        
+        </center>
+</body>
+</html>
